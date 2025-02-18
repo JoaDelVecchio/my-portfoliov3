@@ -22,7 +22,7 @@ export default function RootLayout({
     <HoveredProjectContextProvider>
       <html lang="en" suppressHydrationWarning>
         <body
-          className={` ${inter.variable} antialiased flex flex-col min-h-screen overflow-hidden min-w-full`}
+          className={` ${inter.variable} antialiased flex flex-col min-h-screen overflow-y-auto min-w-full`}
         >
           {children}
         </body>
