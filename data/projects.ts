@@ -4,6 +4,15 @@ const isLocal = process.env.NODE_ENV === "development";
 
 export const projects: IProject[] = [
   {
+    id: "ChatWithPDF",
+    title: "ChatWithPDF (Early-stage)",
+    video: isLocal
+      ? "/videos/ChatWithPDF.mp4"
+      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/ChatWithPDF-cWqkzXMqdpw0ILurtce5TXdGx0DSfu",
+    year: 2025,
+    link: "https://chat-with-pdf-olive.vercel.app/",
+  },
+  {
     id: "247Pilars",
     title: "247Pilars",
     video: isLocal
@@ -30,15 +39,7 @@ export const projects: IProject[] = [
     year: 2025,
     link: "https://top3-gamma.vercel.app/",
   },
-  {
-    id: "KeyPlace",
-    title: "KeyPlace",
-    video: isLocal
-      ? "/videos/KeyPlace.mp4"
-      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/KeyPlace-DQiW4FO9tDb4guu1ept5ANlLu9wKR7.mp4",
-    year: 2025,
-    link: "https://key-place.vercel.app/",
-  },
+
   {
     id: "CountryInfo",
     title: "CountryInfo",
@@ -56,6 +57,15 @@ export const projects: IProject[] = [
       : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/ProteinPlates-PqTTEUaGOhLldAdnJ60RI4gqlpOSwZ.mp4",
     year: 2025,
     link: "https://proteinplates-sigma.vercel.app/",
+  },
+  {
+    id: "KeyPlace",
+    title: "KeyPlace",
+    video: isLocal
+      ? "/videos/KeyPlace.mp4"
+      : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/KeyPlace-DQiW4FO9tDb4guu1ept5ANlLu9wKR7.mp4",
+    year: 2025,
+    link: "https://key-place.vercel.app/",
   },
   {
     id: "Jym",

@@ -7,7 +7,7 @@ const ProjectLink = ({ project }: { project: IProject }) => {
   return (
     <a href={project.link} target="_blank" rel="noopener noreferrer">
       <li
-        className="flex w-60 justify-between px-4 py-5 duration-200 hover:scale-105 hover:rounded-full hover:font-medium hover:shadow-lg hover:backdrop-blur-xl"
+        className="flex w-72 justify-between px-4 py-5 duration-200 hover:scale-105 hover:rounded-full hover:font-medium hover:shadow-lg hover:backdrop-blur-xl"
         onMouseEnter={() => updateHoveredProject(project)}
         onMouseLeave={() => updateHoveredProject(undefined)}
       >
