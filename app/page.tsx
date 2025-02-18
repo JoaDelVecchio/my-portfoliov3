@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 export default function page() {
   return (
     <div className="flex min-h-screen w-full flex-col-reverse md:flex-row">
-      <header>
+      <header className="h-screen m-auto">
         <NavBar />
       </header>
       <main className="flex-1">
