@@ -4,6 +4,24 @@ const isLocal = process.env.NODE_ENV === "development";
 
 export const projects: IProject[] = [
   {
+    id: "BASinFiltro",
+    title: "BA Sin Filtro AI",
+    video: isLocal
+      ? "/videos/BASinFiltro.mp4"
+      : "https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com/Screen%20Recording%202025-12-08%20at%2011.53.12.mov",
+    year: 2025,
+    link: "https://ba-sin-filtro.vercel.app/",
+  },
+  {
+    id: "PrestaYa",
+    title: "Presta Ya",
+    video: isLocal
+      ? "/videos/PrestaYa.mp4"
+      : "https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com/Screen%20Recording%202025-12-08%20at%2011.37.18.mov",
+    year: 2025,
+    link: "https://presta-ya-web.vercel.app/dashboard",
+  },
+  {
     id: "ChatWithPDF",
     title: "ChatWithPDF (Early-stage)",
     video: isLocal
