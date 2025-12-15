@@ -21,6 +21,10 @@ export default function RootLayout({
   return (
     <HoveredProjectContextProvider>
       <html lang="en" suppressHydrationWarning>
+        <head>
+          <link rel="preconnect" href="https://kkdaquubuhuwwawu.public.blob.vercel-storage.com" />
+          <link rel="preconnect" href="https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com" />
+        </head>
         <body
           className={` ${inter.variable} antialiased flex flex-col min-h-screen overflow-y-auto min-w-full`}
         >

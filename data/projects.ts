@@ -8,7 +8,7 @@ export const projects: IProject[] = [
     title: "BA Sin Filtro AI",
     video: isLocal
       ? "/videos/BASinFiltro.mp4"
-      : "https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com/Screen%20Recording%202025-12-08%20at%2011.53.12.mov",
+      : "https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com/BASINFILTRO",
     year: 2025,
     link: "https://ba-sin-filtro.vercel.app/",
   },
