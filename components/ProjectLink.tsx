@@ -23,7 +23,6 @@ const ProjectLink = ({ project }: { project: IProject }) => {
           prefetchVideo(project.video);
           updateHoveredProject(project);
         }}
-        onMouseLeave={() => updateHoveredProject(undefined)}
       >
         <span>{project.title}</span>
         <span className="text-gray-400">{project.year}</span>
