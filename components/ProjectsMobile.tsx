@@ -22,16 +22,18 @@ const ArrowIcon = () => {
 
 const ProjectCard = ({ project }: { project: IProject }) => {
   return (
-    <article className="flex flex-col gap-4">
-      <video
-        src={project.video}
-        className="h-auto w-full rounded-xl shadow-lg"
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="metadata"
-      />
+    <article className="mx-auto flex w-full max-w-2xl flex-col gap-4">
+      <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
+        <video
+          src={project.video}
+          className="absolute inset-0 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="metadata"
+        />
+      </div>
       <div className="flex items-baseline justify-between gap-4">
         <h3 className="text-lg font-semibold tracking-tight text-gray-900">
           {project.title}

@@ -13,11 +13,11 @@ const HoveredProject = ({ project }: { project: IProject }) => {
 
   return (
     <div className="w-full">
-      <div className="flex w-full flex-col gap-6">
-        <div className="relative w-full">
+      <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
+        <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
           {/* ✅ Improved Loading Animation (only visible while loading) */}
           <motion.div
-            className="absolute inset-0 flex items-center justify-center rounded-xl bg-gray-900 bg-opacity-50 transition-opacity duration-300"
+            className="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 transition-opacity duration-300"
             initial={{ opacity: 1 }}
             animate={{ opacity: isLoading ? 1 : 0 }}
             exit={{ opacity: 0 }}
@@ -28,7 +28,7 @@ const HoveredProject = ({ project }: { project: IProject }) => {
           {/* ✅ Preloading the video with smooth transition */}
           <motion.video
             src={videoSrc}
-            className="opacity-0 h-auto w-full rounded-xl shadow-lg md:block transition-opacity duration-300 ease-in-out"
+            className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 ease-in-out md:block"
             autoPlay
             loop
             muted
