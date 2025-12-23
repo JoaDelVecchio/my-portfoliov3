@@ -22,7 +22,7 @@ export const projects: IProject[] = [
     video: isLocal
       ? "/videos/PrestaYa.mp4"
       : "https://7zrt0z2xf10hjynz.public.blob.vercel-storage.com/Screen%20Recording%202025-12-08%20at%2011.37.18.mov",
-    year: 2025,
+    year: 2024,
     link: "https://presta-ya-web.vercel.app/dashboard",
   },
 
@@ -34,7 +34,7 @@ export const projects: IProject[] = [
     video: isLocal
       ? "/videos/ProteinPlates.mp4"
       : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/ProteinPlates-PqTTEUaGOhLldAdnJ60RI4gqlpOSwZ.mp4",
-    year: 2023,
+    year: 2022,
     link: "https://proteinplates-sigma.vercel.app/",
   },
 
@@ -46,7 +46,7 @@ export const projects: IProject[] = [
     video: isLocal
       ? "/videos/Muvi.mp4"
       : "https://kkdaquubuhuwwawu.public.blob.vercel-storage.com/Muvi-RSTap4ASHKP6B21v4AldljOfQvevhO.mp4",
-    year: 2023,
+    year: 2022,
     link: "https://muvi-liart.vercel.app/",
   },
 ];
